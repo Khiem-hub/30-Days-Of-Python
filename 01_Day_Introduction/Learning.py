@@ -1,9 +1,0 @@
-a = 8 
-b = 6
-print(f'{} + {} = {}'.format(a, b, a + b))
-print(f'{} - {} = {}'.format(a, b, a - b))
-print(f'{} * {} = {}'.format(a, b, a * b))  
-print(f'{} / {} = {}'.format(a, b, a / b))
-print(f'{} % {} = {}'.format(a, b, a % b)) 
-print(f'{} // {} = {}'.format(a, b, a // b))
-print(f'{} ** {} = {}'.format(a, b, a ** b))

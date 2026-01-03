@@ -47,7 +47,49 @@ dx = x2 - x1
 dy = y2 - y1
 euclidean_distance = (dx ** 2 + dy ** 2) ** 0.5
 print("Euclidean distance is:", euclidean_distance)
+# 10
 
+# 11
+
+# 12
+length_of_python = len('Python')
+length_of_dragon = len('Dragon')
+if length_of_python == length_of_dragon:
+    print("The lengths are equal.")
+else:
+    print("The lengths are not equal.")
+    
+# 13
+phrase = 'on'
+if phrase in 'Python' and phrase in 'Dragon':
+    print("The phrase is found in both Python and Dragon.")
+else:
+    print("The phrase is not found in both Python and Dragon.")
+
+# 14
+sentence = 'I hope this course is not full of jargon.'
+if 'jargon' in sentence:
+    print("The word 'jargon' is found in the sentence.")
+else:
+    print("The word 'jargon' is not found in the sentence.")    
+
+# 15 khong hieu cau hoi "There is no 'on' in both dragon and python"
+
+# 16
+length_of_python = len('Python')
+converted_length_float = float(length_of_python)
+converted_length_str = str(converted_length_float)
+print("Length orginal:", length_of_python)
+print("Length as float:", converted_length_float)
+print("Length as string:", converted_length_str)
+
+# 17
+n = int(input("Enter an integer: "))
+if n % 2 == 0:
+    print(n, "is even")
+else:
+    print(n, "is odd")
+    
 # 18
 a = 7/3
 b = 2.7

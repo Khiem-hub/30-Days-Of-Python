@@ -16,11 +16,11 @@ age = "18"
 # 9
 year = "2025"
 # 10
-is_married = "False"
+is_married = False
 # 11
-is_true = "True"
+is_true = True
 # 12
-is_light_on = "False"
+is_light_on = False
 # 13 delcare multiple variables in one line
 name, job, live = "Alice", "Engineer", "USA"
 print("First Name:", first_name)
